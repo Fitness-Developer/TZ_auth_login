@@ -1,0 +1,22 @@
+[
+  {
+    "model": "auth_app.role",
+    "pk": 1,
+    "fields": {"name": "admin"}
+  },
+  {
+    "model": "auth_app.role",
+    "pk": 2,
+    "fields": {"name": "user"}
+  },
+  {
+    "model": "access_control.resource",
+    "pk": 1,
+    "fields": {"code": "products", "description": "Products mock"}
+  },
+  {
+    "model": "access_control.resource",
+    "pk": 2,
+    "fields": {"code": "orders", "description": "Orders mock"}
+  }
+]
